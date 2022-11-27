@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono&display=swap');
+
+$primary: rgb(0,132,255);
+$textColor:#fff;
+$error:red;
+body{
+    background-color: $primary;
+    font-family: 'Sono', sans-serif;
+
+}
+h1,h2{
+    margin: 0;
+    padding: 0;
+}
+
+.login{
+   
+    .input-group
+    {
+       .lable{
+           
+           font-size: 20px;
+       } 
+    }
+    .conatainer{
+        max-width: 460px;
+        margin: 3rem auto;
+        padding: 2rem;
+        border:1px solid #ddd;
+        border-radius: .3rem;
+        background-color: $textColor;
+
+
+    }
+
+ }
+ //style for input
+ .input{
+   width: 100%;
+   display: block;
+   border-radius:.25rem;
+    padding: .5rem;
+    appearance: none;
+    font-size: 18px;
+    border: 1px solid rgb(180, 180, 180); 
+}
+.button{
+    background-color: $primary;
+    border:none;
+    color: #fff;
+    font-weight: bold;
+    width: 100%;
+    font-size:1rem;
+    padding: .5rem;
+    display: block;
+    &:hover{
+        filter: brightness(120%);
+    };
+    margin-top: 10px;
+}
+
+
+.todoList{
+    background-color:$textColor;
+}
+.sectoin_todo{
+    background-color:$textColor;
+    border: 1px solid #000;
+}
+.error-message{
+    
+    color: $error;
+}
+
