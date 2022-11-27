@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Sono&display=swap");
+body {
+  background-color: rgb(0, 132, 255);
+  font-family: "Sono", sans-serif;
+}
+
+h1, h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.login .input-group .lable {
+  font-size: 20px;
+}
+.login .conatainer {
+  max-width: 460px;
+  margin: 3rem auto;
+  padding: 2rem;
+  border: 1px solid #ddd;
+  border-radius: 0.3rem;
+  background-color: #fff;
+}
+
+.input {
+  width: 100%;
+  display: block;
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  font-size: 18px;
+  border: 1px solid rgb(180, 180, 180);
+}
+
+.button {
+  background-color: rgb(0, 132, 255);
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  width: 100%;
+  font-size: 1rem;
+  padding: 0.5rem;
+  display: block;
+  margin-top: 10px;
+}
+.button:hover {
+  filter: brightness(120%);
+}
+
+.todoList {
+  background-color: #fff;
+}
+
+.sectoin_todo {
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.error-message {
+  color: red;
+}/*# sourceMappingURL=style.css.map */
