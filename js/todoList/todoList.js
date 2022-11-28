@@ -6,6 +6,9 @@ var currentTask=0;
 window.onload=function(){
     inputTask.focus();
     resetDataFromstorage();
+    const x =[...window.location.href]
+    // console.log(x.slice(60,100).join(""))
+    console.log(x.slice(x.indexOf("&")+1).join(""))
 }
 
 function resetDataFromstorage(){
