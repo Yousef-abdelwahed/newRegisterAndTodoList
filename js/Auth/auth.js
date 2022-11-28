@@ -10,6 +10,7 @@ class Auth{
             window.location.replace("/HTML");
         }else {
             document.querySelector("body").style.display="block";
+            
         }
     }
     logout(){
