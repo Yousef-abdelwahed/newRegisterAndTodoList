@@ -59,4 +59,35 @@ h1, h2 {
 
 .error-message {
   color: red;
+}
+
+.addTaskField {
+  position: relative;
+  padding: 15px;
+  background: #0a9ecd;
+}
+.addTaskField input {
+  display: inline-block;
+  width: calc(100% - 30px);
+  border: 1px solid rgb(14, 106, 33);
+}
+.addTaskField input:hover {
+  outline: none;
+}
+.addTaskField button {
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  border-radius: 12%;
+  right: 29px;
+  border: 2px solid #0a9ecd;
+  border: none;
+  padding: 0;
+}
+.addTaskField span {
+  font-size: 12px;
+}
+
+.complete {
+  text-decoration: line-through;
 }/*# sourceMappingURL=style.css.map */
