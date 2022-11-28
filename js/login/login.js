@@ -8,7 +8,6 @@ class Login{
 
     validateonSubmit(){
         let self=this;
-        console.log(form)
         this.form.addEventListener("submit",(e)=>{
             e.preventDefault();
             var error=0;
